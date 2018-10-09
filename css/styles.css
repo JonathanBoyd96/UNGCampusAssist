@@ -1,0 +1,119 @@
+/* CSS Document */
+/*
+Blues:
+061539
+162955
+2e4272
+4f628e
+7887ab
+
+Purples:
+13073a
+261758
+403075
+615192
+887caf
+
+Yellows:
+554600
+806d15
+aa9739
+d4c26a
+fff0aa
+
+Golds:
+553900
+805c15
+aa8439
+d4b16a
+ffe3aa
+*/
+body{
+	margin:0px;
+	background-color:#887caf;
+}
+.header{
+	background-color:#aa9739;
+}
+.content{
+	background-color:#2e4272;
+}
+.footer{
+	background-color:#aa8439;
+}
+#logo{
+	/*
+	min-height:50px;
+	*/
+	min-width:150px;
+	width:30%;
+	float:left;
+	background-color:#d4c26a
+}
+.topMenu{
+	float:right;
+	background-color:#fff0aa;
+	width:68%;
+	min-width:150px;
+}
+.clear{
+	clear:both;
+}
+.leftMenu, .mainContent, .sidebar{
+	float:left;
+	padding:5px;
+}
+.leftMenu{
+	/*width:20%;*/
+	/*max-width:100px;*/
+	min-width:50px;
+	background-color:#4f628e;
+	margin-right:5px;
+	color:white;
+}
+.leftMenu a{
+	color:white;
+}
+.leftMenu ul{
+	margin: 5px;
+	padding: 0px;
+}
+.leftMenu li{
+	background-color:#553900;
+	list-style:none;
+	padding:5px;
+}
+.mainContent{
+	width:79%;
+	min-width:100px;
+	background-color:#7887ab;
+	min-height:400px;
+}
+.sidebar{
+	width:20%;
+	max-width:200px;
+	min-width:100px;
+	background-color:#162955;
+	margin-left:5px;
+}
+.error{
+	color:red;
+}
+
+.code{
+	border:1px #BBB solid;
+	background-color:#CCC;
+	padding:5px;
+	display:inline-block;
+	margin:5px 0px;
+}
+.output{
+	border:1px #DDD solid;
+	background-color:#EEE;
+	padding:5px;
+	display:inline-block;
+	margin:5px 0px;
+}
+h3{
+	margin:5px 0px;
+}

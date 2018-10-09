@@ -1,0 +1,20 @@
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-27 01:13:04
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-27 01:13:04 W3SVC70 P3NWVPWEB149 50.62.168.1 GET / - 80 - 52.24.4.195 HTTP/1.1 Mozilla/5.0+(Macintosh;+PPC+Mac+OS+X+10.9;+rv:52.0)+Gecko/20100101+Firefox/52.0 - - christianbrooks.net 200 0 0 1189 330 4593
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-27 04:19:59
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-27 04:19:58 W3SVC70 P3NWVPWEB149 50.62.168.1 GET / - 80 - 38.140.143.226 HTTP/1.1 - - - christianbrooks.net 200 0 0 1536 42 6843
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-27 06:32:02
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-27 06:32:01 W3SVC70 P3NWVPWEB149 50.62.168.1 GET /wp-login.php - 80 - 121.58.222.108 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - - christianbrooks.net 404 0 2 1343 152 5781
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-27 10:07:23
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-27 10:07:23 W3SVC70 P3NWVPWEB149 50.62.168.1 GET / - 80 - 180.76.15.153 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - christianbrooks.net 200 0 0 1208 221 7687

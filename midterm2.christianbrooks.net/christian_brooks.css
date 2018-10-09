@@ -1,0 +1,16 @@
+/* CSS Document */
+/* Style by tag name */
+h1{
+	background-color:green;
+}
+h2{
+	background-color:blue;
+}
+/* Style by class */
+.myTable{
+	background-color:lightgray;
+}
+/* Style by id */
+#petname{
+	background-color:yellow;
+}

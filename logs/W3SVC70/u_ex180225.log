@@ -1,0 +1,32 @@
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-25 02:49:07
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-25 02:49:07 W3SVC70 P3NWVPWEB149 50.62.168.1 GET /far.php - 80 - 212.83.178.172 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/60.0.3112.113+Safari/537.36 - - christianbrooks.net 404 0 64 0 252 5062
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-25 10:28:42
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-25 10:28:41 W3SVC70 P3NWVPWEB149 50.62.168.1 GET / - 80 - 199.30.228.133 HTTP/1.1 Mozilla/5.0+(Macintosh;+U;+Intel+Mac+OS+X+10.5;+en-US;+rv:1.9.2.13)+Gecko/20101203+Firefox/3.6.13+GTB7.1 - - christianbrooks.net 200 0 64 0 410 5296
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-25 10:47:17
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-25 10:47:16 W3SVC70 P3NWVPWEB149 50.62.168.1 GET /robots.txt - 80 - 66.249.79.23 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.christianbrooks.net 404 0 2 1343 237 5484
+2018-02-25 10:47:20 W3SVC70 P3NWVPWEB149 50.62.168.1 GET / - 80 - 66.249.79.23 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.christianbrooks.net 200 0 0 1189 300 2890
+2018-02-25 10:47:24 W3SVC70 P3NWVPWEB149 50.62.168.1 GET /css/indexCSS.css - 80 - 66.249.79.21 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.christianbrooks.net/ www.christianbrooks.net 200 0 0 757 341 46
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-25 14:28:33
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-25 14:28:33 W3SVC70 P3NWVPWEB149 50.62.168.1 GET /wp-login.php - 80 - 175.158.201.41 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - - christianbrooks.net 404 0 2 1343 152 2484
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-25 19:08:31
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-25 19:08:31 W3SVC70 P3NWVPWEB149 50.62.168.1 GET / - 80 - 142.4.218.156 HTTP/1.1 Mozilla/5.0+(compatible;+Dataprovider.com;) - - www.christianbrooks.net 200 0 0 1555 125 7968
+2018-02-25 19:08:32 W3SVC70 P3NWVPWEB149 50.62.168.1 GET /robots.txt - 80 - 142.4.218.156 HTTP/1.1 Mozilla/5.0+(compatible;+Dataprovider.com;) - - www.christianbrooks.net 404 0 2 1362 135 93
+2018-02-25 19:08:32 W3SVC70 P3NWVPWEB149 50.62.168.1 GET /sitemap.xml - 80 - 142.4.218.156 HTTP/1.1 Mozilla/5.0+(compatible;+Dataprovider.com;) - - www.christianbrooks.net 404 0 2 1362 136 78
+2018-02-25 19:08:32 W3SVC70 P3NWVPWEB149 50.62.168.1 GET / - 80 - 142.4.218.156 HTTP/1.1 Mozilla/5.0+(compatible;+Dataprovider.com;) - - www.christianbrooks.net 200 0 0 1555 125 93
+2018-02-25 19:08:33 W3SVC70 P3NWVPWEB149 50.62.168.1 GET /ads.txt - 80 - 142.4.218.156 HTTP/1.1 Mozilla/5.0+(compatible;+Dataprovider.com;) - - www.christianbrooks.net 404 0 2 1362 132 93
+2018-02-25 19:08:33 W3SVC70 P3NWVPWEB149 50.62.168.1 GET / - 80 - 142.4.218.156 HTTP/1.1 Mozilla/5.0+(Linux;+Android+5.1.1;+SM-G925F+Build/LMY47X)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/45.0.2454.94+Mobile+Safari/537.36 - - www.christianbrooks.net 200 0 0 1555 219 93

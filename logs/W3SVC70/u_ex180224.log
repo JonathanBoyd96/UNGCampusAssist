@@ -1,0 +1,21 @@
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-24 03:07:35
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-24 03:07:35 W3SVC70 P3NWVPWEB149 50.62.168.1 GET /wp-login.php - 80 - 189.172.16.240 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - - christianbrooks.net 404 0 2 1343 152 3750
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-24 05:23:54
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-24 05:23:53 W3SVC70 P3NWVPWEB149 50.62.168.1 GET / - 80 - 13.56.229.65 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_12_6)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/61.0.3163.100+Safari/537.36 - - www.christianbrooks.net 200 0 0 1189 207 3875
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-24 11:22:42
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-24 11:22:41 W3SVC70 P3NWVPWEB149 50.62.168.1 GET / - 80 - 103.208.246.230 HTTP/1.1 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/46.0.2490.80+Safari/537.36 - - christianbrooks.net 200 0 0 1555 195 7562
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2018-02-24 16:38:21
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-02-24 16:38:20 W3SVC70 P3NWVPWEB149 50.62.168.1 GET / - 80 - 91.210.146.51 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/31.0.1650.57+Safari/537.36 - http://christianbrooks.net christianbrooks.net 406 0 0 1323 445 7625
+2018-02-24 16:38:25 W3SVC70 P3NWVPWEB149 50.62.168.1 GET /blog/ - 80 - 91.210.146.51 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/31.0.1650.57+Safari/537.36 - http://christianbrooks.net/blog/ christianbrooks.net 404 0 2 1343 456 437

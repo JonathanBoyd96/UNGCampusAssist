@@ -1,0 +1,17 @@
+/* CSS Document */
+
+header {
+    color: navy;
+    margin-left: 20px;
+}
+
+.table{
+	padding: 5px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	border-color: aqua;
+}
+
+#formelement{
+	color: tomato;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}

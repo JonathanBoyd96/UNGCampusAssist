@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript Examples</title>
+</head>
+
+
+<body>
+<div id="c1" class="myDiv">content</div>
+<script>
+	
+//variables
+	//data types
+var myVar1= "String";
+var myVar2= "15";
+var myVar3= "1.5";
+myVar3 = "String";
+//alert(myVar1);
+	
+//arrays
+var cars = ["Saab", "Volvo", "BMW", 5, false]
+cars[0] = true;
+cars[5] = "more data";
+	
+//functions/methods
+	//variable scope
+function myFunction(a, b, c)//String, int, double
+	{
+		alert(a+" "+b+" "+c);
+		//myVar1 = a+b+c;//changes global variable
+		var myVar1 = a+b+c;//creates local variable, doesnt edit global variable
+		
+	}
+alert(myVar1);
+myFunction(1,2,3);
+alert(myVar2);
+
+
+	
+//Date
+	//basic object usage
+var myDate = new Date();
+alert(myDate.toLocaleDateString());
+document.getElementById("c1").className = "blue";
+	
+	
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>Project 1</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: firebrick;
+    padding: 20px;
+    text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: dimgray;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: ghostwhite;
+    color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: firebrick;
+    padding: 10px;
+    text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 11px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Who am I?</h1>
+</div>
+
+<div class="topnav w3-bar">
+  <a href="http://project1.christianbrooks.net/" class="w3-bar-item w3-button">Home</a>
+  <a href="intp1.html" class="w3-bar-item w3-button w3-hide-small">About Me</a>
+  <a href="intp2.html" class="w3-bar-item w3-button w3-hide-small">Table</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
+  <a href="intp1.html" class="w3-bar-item w3-button">About Me</a>
+  <a href="intp2.html" class="w3-bar-item w3-button">Table</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Facts</h2>
+    <ul>
+    	<li>Age: 22</li>
+    	<li>Major: Computer Science</li>
+    	<li>Birthday: 8-6-95</li>
+    	<li>Favorite Color: Red</li>
+    	<li>Occupation: National Guard</li>
+    </ul>
+  </div>
+  <div class="column middle">
+    <h2>Short Bio</h2>
+    <p>I was born in Bay County Florida to my parents Shawn and Michelle Brooks. I grew up in East Georgia and was homeschooled until 9th grade. I attended Kings Way Christian School from 10th grade to 12th grade. I graduated as Valedictorian. Soon after graduation, I traveled to Fort Leonard Wood Missouri for Basic Training and Military Police School. After 22 weeks, I was officially a Military Police Officer.</p>
+    <p>After making it through one of the most difficult 5 months of my life, I decided to go to college to become an officer in the US Army. A journey which would make those 5 months look like a cake walk. </p>
+  </div>
+  <div class="column side">
+    <h2>Future Goals</h2>
+	<ul>
+		<li>Graduate College and commission</li>
+		<li>Fly helicopters in the National Guard</li>
+		<li>Get a well paying IT job</li>
+		<li>Start a family</li>
+		<li>Buy a house</li>
+	</ul>  
+	</div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="footer">
+  <p>Copyright 2017</p>
+</div>
+  
+
+<script>
+	function myFunction() {
+    var x = document.getElementById("demo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}	
+	</script>
+	</body>
+</html>

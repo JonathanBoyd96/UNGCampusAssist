@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+
+<div id="clickMe" onClick="clickMe(this)">Click Me</div>
+<script>
+	setInterval(timer,1000);
+	var count = 0;
+	
+	Function timer (){
+		count++
+		document.getElementById("timer").innerHTML = "The page has been opened for "+count +" seconds.";
+	}
+	
+setTimeout(once, 5000);
+function once(){
+	alert("ran at 5 seconds in");
+}
+
+function clickMe(obj){
+	
+	if(obj.style.backgroundColor == "cyan")
+		obj.style.backgroundColor ="blue";
+	else
+		obj.style.backgroundColor == "cyan";
+}
+	
+	
+	
+	</script>
+</body>
+</html>

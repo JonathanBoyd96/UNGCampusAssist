@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+div{
+	color:red;
+	width:35%;
+	margin-top: 12px;
+	padding:3px;
+	background-color: dimgray;
+		
+}
+
+p{
+	color: orangered;
+	float: right;
+}
+td{
+	vertical-align: top;
+}
+
+.facts{
+	background-color: black;
+	height: 200px;
+}
+.list{
+	border: solid; 
+	border-width: thin;
+	border-style: dotted;
+	border-color: coral;
+
+}
+.item{
+	text-decoration: underline;
+	text-decoration-color: crimson;
+	text-transform: uppercase;
+}
+#myLink{
+	color: darkred;
+	
+}
